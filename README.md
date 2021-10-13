@@ -22,20 +22,21 @@ Create a very useful abstract BaseService that helping you to do simple job like
 ##### Useful BaseModel
 
 Create a very useful abstract BaseModel
+
 ##### Swagger UI
 
 We have installed Swagger in this project
 
 ### Quick Start
 
-1. Install node and npm on your computer
+1. Install node and docker desktop ( if you have native postgres on your computer you can skil 5 ) on your computer
 2. clone this repo using `git clone https://github.com/tanakorn-rattanajariya/nest-backend-starter.git <YOUR_PROJECT_NAME>`
-3. ` cd <YOUR_PROJECT_NAME>`
-4. `npm install`
-5. `npm run dev` and then you can access swagger-ui via <a>http://localhost:5000/api</a>
+3. run ` cd <YOUR_PROJECT_NAME>`
+4. run `npm install`
+5. run `docker run --name postgres -e POSTGRES_PASSWORD=root -p 5432:5432 -d postgres`
+6. run `npm run dev` and then you can access swagger-ui via <a>http://localhost:5000/api</a>
 
 ### Contributors
 
-
-Vialink Engineering Team 
+Vialink Engineering Team
 <a>http://www.via.link</a>
